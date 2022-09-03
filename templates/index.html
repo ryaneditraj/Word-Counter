@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Word Counter</h1>
+    <form method="post" action="#">
+       
+        <input type="submit">
+        <textarea rows = "5" cols = "60" name = "text" value="">{{text}}</textarea>
+        
+    </form>
+    <h1 class="details">Text Length:{{tl}}</h1>
+    <h1 class="details">Word Count:{{wc}}</h1>
+    <style>
+        h1 {
+            text-align:center;
+            color:#FF9551;
+        }
+        body {
+            font-family: Courier New;
+            background:#B9FFF8;
+        }
+        textarea {
+            position:relative;
+            left:27vw;
+            height:20vw;
+            width:30vw;
+        }
+        input[type="submit"] {
+            position:relative;
+            top:4vh;
+            left:50vw;
+            
+        }
+
+    </style>
+</body>
+</html>
